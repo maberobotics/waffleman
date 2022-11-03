@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="waffleman">
+
+  <xacro:include filename="$(find waffleman_description)/srdf/manipulator_macro.srdf.xacro"/>
+  <xacro:manipulator_srdf name="waffleman"/>
+
+</robot>
